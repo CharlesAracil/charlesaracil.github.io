@@ -29,3 +29,18 @@ Si vous voudriez que j'ajoute un autre système de donation, [Tipeee](https://ww
 ### Me contacter
 
 [charles.aracil+blog [at] gmail.com](mailto:charles.aracil+blog@gmail.com)
+
+### Une place pour Flattr
+
+<script id='fbkk5cv'>
+  (function(i) {
+    var f,s=document.getElementById(i);
+    f=document.createElement('iframe');
+    f.src='//button.flattr.com/view/?fid=g39dkl&button=compact&url='+encodeURIComponent(document.URL);
+    f.title='Flattr';
+    f.height=20;
+    f.width=110;
+    f.style.borderWidth=0;
+    s.parentNode.insertBefore(f,s);
+  }) ('fbkk5cv');
+</script>
