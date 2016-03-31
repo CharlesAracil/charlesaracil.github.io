@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Vous voilà prêt à partir !
+ref: hello-world
+lang: fr
 ---
 
 Vous pouvez maintenant ajouter le nom de votre site, votre avatar et plein d'autres options en utilisant le fichier _config.yml situé à la racine de votre dépôt (montré ci-dessous).

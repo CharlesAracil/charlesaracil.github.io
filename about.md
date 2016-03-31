@@ -2,14 +2,18 @@
 layout: page
 title: About
 permalink: /about/
+ref: about
+lang: en
 ---
 
-Some information about you!
+Well in fact there is no much to tell here that you might be interested in, so I'll just leave you here and take a shower!
+
+Year I promise if I found something interesting to say here, I will.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Hum, thank you for visiting my website!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[charles.aracil+blog [at] gmail.com](mailto:charles.aracil+blog@gmail.com)

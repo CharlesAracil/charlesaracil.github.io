@@ -235,6 +235,11 @@ nav {
       color: $blue;
     }
   }
+
+  .multilingual {
+    @extend a;
+    margin: 0px 0px;
+  }
 }
 
 //
