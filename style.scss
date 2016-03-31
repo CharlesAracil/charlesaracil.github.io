@@ -74,6 +74,7 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
+    transition: color 0.125s;
   }
 }
 
@@ -151,7 +152,6 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
 }
 
 .masthead {
@@ -235,10 +235,21 @@ nav {
       color: $blue;
     }
   }
+}
 
-  .multilingual {
-    @extend a;
-    margin: 0px 0px;
+.multilingual {
+  text-align: right;
+  margin-bottom: 50px;
+
+  a {
+    margin-left: 20px;
+    color: $darkGray;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $blue;
+    }
   }
 }
 

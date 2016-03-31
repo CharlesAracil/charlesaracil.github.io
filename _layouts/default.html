@@ -29,22 +29,21 @@
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
-
-            <div class="multilingual">
-              {% assign filtered_posts = site.posts | where:"ref", page.ref | sort: "lang" %}
-              {% for post in filtered_posts %}
-                <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-              {% endfor %}
-
-              {% assign filtered_pages = site.pages | where:"ref", page.ref | sort: "lang" %}
-              {% for page in filtered_pages %}
-                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-              {% endfor %}
-          </div>
           </nav>
-
         </header>
       </div>
+    </div>
+
+    <div class="container multilingual">
+      {% assign filtered_posts = site.posts | where:"ref", page.ref | sort: "lang" %}
+      {% for post in filtered_posts %}
+        <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+      {% endfor %}
+
+      {% assign filtered_pages = site.pages | where:"ref", page.ref | sort: "lang" %}
+      {% for page in filtered_pages %}
+        <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+      {% endfor %}
     </div>
 
     <div id="main" role="main" class="container">
