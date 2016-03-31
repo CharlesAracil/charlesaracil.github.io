@@ -253,6 +253,15 @@ nav {
   }
 }
 
+.posts .post h1 a {
+  color: $darkGray;
+
+  &:hover {
+    transition: color 0.125s;
+    color: $blue;
+  }
+}
+
 //
 // .main
 //
