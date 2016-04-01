@@ -6,13 +6,24 @@ ref: about
 lang: en
 ---
 
-Well in fact there is no much to tell here that you might be interested in, so I'll just leave you here and take a shower!
+This website is entirely static: it works only with *HTML* and *CSS*. It's powered by [Jekyll](https://jekyllrb.com/), a powerful static website generator, and then hosted and served thanks to [GitHub Pages](https://pages.github.com/).
 
-Year I promise if I found something interesting to say here, I will.
+Code base is forked from [Jekyll Now](http://www.jekyllnow.com/), created by Barry Clark.
+Multilingual feature is based on the idea of [Sylvain Durand](https://www.sylvaindurand.org/making-jekyll-multilingual/).
 
-### More Information
+### License
 
-Hum, thank you for visiting my website!
+The source code is freely available on [Github](https://github.com/charlesaracil/charlesaracil.github.io). Content and code presented on this website are published under the [MIT license](https://opensource.org/licenses/MIT).
+
+If you use or refer any of my work, I'll appreciate you quote me as author.
+
+### A word on Flattr
+
+You may have noticed I use [Flattr](https://flattr.com/), a microdonation platform. It aims at rewarding publishers of content on the Internet.
+
+I'll publish content regardless of Flattr donations, because I want to and because I like it. Its presence on my website is more to promote this system rather than getting money. If you like Flattr, say it out loud.
+
+If you'd like me to add another donation system - [Tipeee](https://www.tipeee.com/), [Patreon](https://www.patreon.com/), [Gratipay](https://gratipay.com/), ... - please let me know.
 
 ### Contact me
 
