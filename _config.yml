@@ -39,6 +39,9 @@ disqus: charlesaracil
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-75270701-1
 
+# Enter your Flattr ID here to enable donations
+flattr: fbkk5cv
+
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url: https://charlesaracil.github.io/
