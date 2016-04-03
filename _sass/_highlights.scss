@@ -10,6 +10,13 @@
   overflow: scroll;
 }
 
+.highlighter-rouge {
+  background: #eef;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 3px 3px 4px 5px;
+}
+
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
 }
