@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A fairly comprehensive journey to security
-ref: a-fairly-comprehensive-journey-to-security
+title: An iterative journey to security
+ref: an-iterative-journey-to-security
 lang: en
 ---
 
