@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Un cheminement exhaustif en sécurité
-ref: a-fairly-comprehensive-journey-to-security
+title: Un cheminement itératif en sécurité
+ref: an-iterative-journey-to-security
 lang: fr
 ---
 
