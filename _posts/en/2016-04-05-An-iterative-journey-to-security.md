@@ -58,7 +58,7 @@ For the sake of fairness, I’d like to point out that **hackers are not all evi
 
 * **black hats:** that’s the type of hackers you know, who “use their superpowers for evil”.
 * **white hats:** ethical hackers, hacking systems in order to find security flaws, and warn their developers so that they can fix them. They want to make the world a better place.
-* **grey hats:** they’re kind of between black and white hats. They hack systems for an ideology they fight for. They don’t want to hurt people specifically, but may be fighting against the system in place because they find it unfair. Guy Fawkes, from “V for Venderra”, is an iconic grey hat.
+* **grey hats:** they’re kind of between black and white hats. They hack systems for an ideology they fight for. They don’t want to hurt people specifically, but may be fighting against the system in place because they find it unfair. Guy Fawkes, from “V for Vendetta”, is an iconic grey hat.
 
 As computer scientists and white hats work to make our computers more secure, black hats have fewer and fewer leeway to penetrate systems. However, due to the lack of education in computer science, people still aren’t aware of good security policies, meaning black hats favour human flaws as a way in. If absolute security is purely utopian, the least you can do is to be sure that you didn’t leave a door wide open.
 
