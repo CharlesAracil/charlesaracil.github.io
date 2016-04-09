@@ -265,6 +265,10 @@ nav {
     transition: color 0.125s;
     color: $blue;
   }
+
+  @include mobile {
+    color: $blue;
+  }
 }
 
 .wrapper-flattr {

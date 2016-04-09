@@ -15,7 +15,7 @@ Cela signifie que même si un pirate accède à l'intégralité de votre ordinat
 
 ---
 
-Un code de hachage est comme une empreinte, c'est un identifiant unique associé à votre mot de passe, calculé à partir de ce dernier. **Deux mots de passe différents donnent deux code de hachage complètement différents**, même si ces mots de passe ne diffèrent que d'un seul caractère. Le processus de hachage repose sur une `fonction à sens unique`.
+Un code de hachage est comme une empreinte, c'est un identifiant unique associé à votre mot de passe, calculé à partir de ce dernier. **Deux mots de passe différents donnent deux codes de hachage complètement différents**, même si ces mots de passe ne diffèrent que d'un seul caractère. Le processus de hachage repose sur une `fonction à sens unique`.
 
 > "En informatique, une fonction à sens unique est une fonction facile à calculer sur chaque entrée, mais pour laquelle il est difficile de retrouver l'antécédent d'une image."
 – [wikipedia.org](https://fr.wikipedia.org/wiki/Fonction_%C3%A0_sens_unique)
@@ -91,9 +91,9 @@ Cette contrainte de taille sur les mots de passe n'est pas limitée à de petits
 
 En restant optimiste, on pourrait supposer une raison technique. Ils pourraient ne pas avoir mis à jour l'application gérant le formulaire d'inscription, ou simplement utiliser une chaîne de caractère de taille fixe pour enregistrer temporairement le mot de passe, qui sera haché ensuite. *Ebay* limite actuellement la taille à 64 caractères, ce qui pourrait être un compromis entre un mot de passe assez long pour satisfaire la plupart des utilisateurs et éviter de gérer des chaînes de caractères de taille dynamique dans leur moteur interne, ce qui pourrait nécessiter une configuration supplémentaire, mais j'en doute. Dans ce cas, le mot de passe pourrait effectivement ne pas être enregistré, mais on ne peut pas en être sûr sans recherche plus approfondie.
 
-Enregistrer votre mot de passe pourrait aussi servir à vous le renvoyer dans le cas où vous l'auriez oublié, ce qui évidemment est une idée stupide. À moins que vous n'ayez mis en place un chiffrement, avec [GnuPG](https://www.gnupg.org/) par exemple, **les communications par email ne sont absolument pas sécurisées,** ce qui signifie que tous les emails que vous envoyez et recevez circulent en clair sur le réseau, si bien que quiconque écoute votre traffic est en mesure de lire ces emails sans plus d'effort. Cette personne pourrait alors récupérer votre mot de passe et s'en servir. La récupération d'un mot de passe oublié devrait toujours être géré en utilisant un [lien temporaire de réinitialisation](https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet#Step_3.29_Send_a_Token_Over_a_Side-Channel).
+Enregistrer votre mot de passe pourrait aussi servir à vous le renvoyer dans le cas où vous l'auriez oublié, ce qui évidemment est une idée stupide. À moins que vous n'ayez mis en place un chiffrement, avec [GnuPG](https://www.gnupg.org/) par exemple, **les communications par email ne sont absolument pas sécurisées,** ce qui signifie que tous les emails que vous envoyez et recevez circulent en clair sur le réseau, si bien que quiconque écoute votre traffic est en mesure de lire ces emails sans plus d'effort. Cette personne pourrait alors récupérer votre mot de passe et s'en servir. La récupération d'un mot de passe oublié devrait toujours être gérée en utilisant un [lien temporaire de réinitialisation](https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet#Step_3.29_Send_a_Token_Over_a_Side-Channel).
 
-Donc la prochaine fois que vous voyez de tels formulaires, envoyez un email à l'entreprise et demandez leur pour quel raison ils ont besoin de votre mot de passe...
+Donc la prochaine fois que vous voyez de tels formulaires, envoyez un email à l'entreprise et demandez leur pour quelle raison ils ont besoin de votre mot de passe...
 
 ---
 
@@ -109,7 +109,7 @@ Le courrier se payait même le luxe de prodiguer des conseils sur comment proté
 
 Je ne suis pas parvenu à imaginer de raison d'être pour cet email. J'ai envoyé un message à l'équipe du site, mais n'ai pas obtenu de réponse. Après une recherche rapide, j'ai découvert que cette habitude était répandue. Le site internet [plaintextoffenders.com](http://plaintextoffenders.com/) référence tout un tas de ce genre d'emails, dans lesquels le mot de passe était juste ... écrit.
 
-*Ces failles de sécurité sont comme les comportements anti-sociaux: présents parce que personne ne s'en soucis activement. La prochaine fois que vous en voyez une, ne partez pas avant d'avoir envoyé un email au service concerné. Il en ignorera certainement quelques-uns, mais certainement pas des centaines.*
+*Ces failles de sécurité sont comme les comportements anti-sociaux: présents parce que personne ne s'en soucie activement. La prochaine fois que vous en voyez une, ne partez pas avant d'avoir envoyé un email au service concerné. Il en ignorera certainement quelques-uns, mais certainement pas des centaines.*
 
 ***prochaine étape: de la génération de mots de passe robustes au néant (prochainement)***
 
