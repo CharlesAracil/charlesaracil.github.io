@@ -64,5 +64,5 @@ Les ingénieurs en informatique et les "white hats" travaillent à rendre nos or
 
 *Les pirates, au sens large, sont des personnes intelligentes, j'apprécie et adopte leur état d'esprit. Ils sont curieux, passionnés, ont un esprit critique et voient le monde non-pas comme on leur dit de le voir, mais comme ils veulent qu'il soit. Les "white hats" sont probablement plus efficaces à rendre nos technologies plus sécurisés que les entreprises ou les gouvernements, qui continuent à vous dire sans distinction que les pirates sont des méchants. La curiosité n'est pas un vilain défaut, le manichéisme en revanche...*
 
-***prochaine étape: mots de passe (prochainement)***
+[**next milestone: comment votre ordinateur n'enregistre pas les mots de passe**]({% post_url 2016-04-09-Comment-ordinateur-enregistre-pas-mot-de-passe%})
 

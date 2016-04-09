@@ -64,5 +64,5 @@ As computer scientists and white hats work to make our computers more secure, bl
 
 *Hackers, in their largest definition, are clever people, and I actually like and embrace their state of mind. They’re curious, passionate, they have a critical mind and see the world not as they’re told to, but how they want it to be. White hats may be more efficient at making our technological world more secure than companies and surely governments, who keep telling you without distinction that all hackers are bad people. Curiosity didn't kill the cat, manichaeism surely did.*
 
-***next milestone: passwords (coming soon)***
+[**next milestone: how computers don't store passwords**]({% post_url 2016-04-09-How-computers-dont-store-passwords%})
 
