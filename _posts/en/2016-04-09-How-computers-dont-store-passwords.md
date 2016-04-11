@@ -28,6 +28,8 @@ It's worth mentioning that *"hard"* is a relative term, as it depends on what or
 
 Hashing algorithms are a subset of one-way functions. They are hard to solve for both human beings and computers, and they also have a `non-collision property`, which means that every input will give a different result. In our case, it ensures that **two different passwords will have two different hashes.**
 
+*Actually, non-collision property is impossible here, because the set of passwords is larger than the set of hashes. But actual hashing algorithms ensure that the risk of collision is so ridiculously small it's not worth considering.*
+
 Computers can use several hashing algorithms, the best known being `Message Digest 5 (MD5)` and `Secure Hash Algorithm (SHA)`. Both of them consist in taking an input, like a password, and applying a series of mathematical operations to turn this input into a *fixed-length hexadecimal string*, a string constituted with digits and characters from *A* to *F*. Here are some examples of passwords and their corresponding hashes using both *MD5* and *SHA*:
 
 | Passwords            | Hash with MD5        | Hash with SHA-512  |

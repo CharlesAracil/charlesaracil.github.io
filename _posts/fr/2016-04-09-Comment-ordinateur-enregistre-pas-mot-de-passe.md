@@ -28,6 +28,8 @@ Il convient de préciser que *"difficile"* est un terme relatif, ça dépend de 
 
 Les algorithmes de hachage sont un sous-ensemble des fonctions à sens unique. Ils sont difficiles à résoudre tant pour les humains que pour les ordinateurs, et obéissent à une `propriété de non-collision`, ce qui signifie que chaque entrée donne un résultat différent. Dans notre cas, cette propriété assure que deux mots de passe différents auront deux codes de hachage différents.
 
+*En réalité, cette propriété de non-collision est impossible dans ce cas, puisque l'ensemble des mots de passe est plus grand que l'ensemble des codes de hachage. Néanmoins, les algorithmes de hachage actuels assurent que le risque de collision est tellement faible qu'on peut se permettre de l'ignorer.*
+
 Les ordinateurs utilisent différents algorithmes de hachage, les plus connus étant le `Message Digest 5 (MD5)` et le `Secure Hash Algorithm (SHA)`. Les deux consistent à prendre une entrée, comme un mot de passe, et leur appliquer une série d'opérations mathématiques pour les transformer en chaîne hexadécimale, une chaîne constituée de chiffres et de caractères entre *A* et *F*. Ci-dessous figurent quelques exemples de mots de passe et leur code de hachage respectif en *MD5* et *SHA*:
 
 | Mot de passe         | Hash avec MD5        | Hash avec SHA-512  |
