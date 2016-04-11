@@ -82,9 +82,9 @@ You may have noticed on several online services that the length of passwords is 
 
 Consequently, **there is no need to limit the size of passwords,** as they won't end on any storage... *unless they do.*
 
-In real life, some services do store your passwords, which is a very very bad habit, because if a hacker breaks into their system, they'll most likely look for passwords. How easy they'll find thems depends on whether encryption is used to protect these passwords:
+In real life, some services do store your passwords, which is a very very bad habit, because if a hacker breaks into their system, they'll most likely look for passwords. How easy they'll find them depends on whether encryption is used to protect these passwords:
 
-* **best case**, encryption is used, and a hacker won't be able to get your passwords, unless unless either your password is weak or the encryption has a flaw.
+* **best case**, encryption is used, and a hacker won't be able to get your passwords, unless either your password is weak or the encryption has a flaw.
 * **worst case** - the one you should always consider when dealing with security - encryption is not used, so your passwords are stored in plain text, and a hacker just has to read it and use it.
 
 This password length requirement is not exclusive to some small unknown onlines services. Famous ones have it, like *Paypal* or *Ebay*. The reason for that is unclear.
