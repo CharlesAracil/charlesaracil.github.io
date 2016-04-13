@@ -41,7 +41,7 @@ Les ordinateurs utilisent différents algorithmes de hachage, les plus connus é
 
 Calculer le code de hachage d'un mot de passe est très facile, mais deviner le mot de passe correspondant à son code de hachage est quasiment impossible, sous réserve que le mot de passe soit assez robuste.
 
-![hash transformation]({{ site.baseurl }}/images/password-certification-hashing.png)
+![hash transformation]({{ site.baseurl }}/assets/figures/password-certification-hashing.png)
 
 **Cette propriété est la pierre angulaire de la certification de mot de passe.**
 
@@ -57,13 +57,13 @@ Afin de fixer les idées, partons du scénario dans lequel vous créez un compte
 
 Tout d'abord, votre système d'exploitation vous propose de choisir un mot de passe. Après réflexion, vous choississez `Ghostbuster`, qui est un très mauvais mot de passe, mais gardons les choses simples. Toujours est-il que vous entrez votre mot de passe, et voici ce qu'il se passe dans les coulisses :
 
-![password-certification-creation]({{ site.baseurl }}/images/password-certification-creation.png)
+![password-certification-creation]({{ site.baseurl }}/assets/figures/password-certification-creation.png)
 
 Votre mot de passe est manipulé par une fonction de hachage, comme celle dont nous parlions plus tôt. Le code de hachage généré est alors enregistré en mémoire, tandis que votre mot de passe est... **entièrement détruit et oublié !** Votre système d'exploitation n'en a plus une trace, et ne pourrait donc plus le récupérer même s'il le voulait.
 
 Vous décidez maintenant de vous connecter. Supposons que vous fassiez une faute de frappe en entrant votre mot de passe la première fois, avant de finalement le taper correctement au second essai. Voici de nouveau ce qu'il se passe dans les coulisses :
 
-![password-certification-login]({{ site.baseurl }}/images/password-certification-login.png)
+![password-certification-login]({{ site.baseurl }}/assets/figures/password-certification-login.png)
 
 Chaque fois que vous entrez un mot de passe, le système calcule son code de hachage, puis le compare à celui qu'il a en mémoire :
 
@@ -103,7 +103,7 @@ Donc la prochaine fois que vous voyez de tels formulaires, envoyez un email à l
 
 Je me suis récemment inscrit à un service de vente en ligne. Juste après la finalisation de l'inscription, j'ai reçu un email. Imaginez vous combien j'étais content en me rendant compte que cet email contenait le mot de passe que je venais juste de choisir !
 
-![screenshot-password-send-after-subscription.png]({{ site.baseurl }}/images/screenshot-password-send-after-subscription.png)
+![screenshot-password-send-after-subscription.png]({{ site.baseurl }}/assets/screenshots/screenshot-password-send-after-subscription.png)
 
 Le courrier se payait même le luxe de prodiguer des conseils sur comment protéger mes informations confidentielles... c'est l'hôpital qui se fout de la charité.
 
