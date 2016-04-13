@@ -43,7 +43,7 @@ Computers can use several hashing algorithms, the best known being `Message Dige
 
 Computing a hash from a password is very easy, but guessing the password from its hash is almost impossible, providing the password is strong enough.
 
-![hash transformation]({{ site.baseurl }}/images/password-certification-hashing.png)
+![hash transformation]({{ site.baseurl }}/assets/figures/password-certification-hashing.png)
 
 **This property is the cornerstone of password certification.**
 
@@ -59,13 +59,13 @@ For the sake of clarity, let's set a scenario where you create an account on you
 
 First, the operating system ask you to choose your password. After a bit of thinking, you come up with `Ghostbuster`, which is actually a very weak password, but it's just to make things clearer than using a complex password. Anyway, you type-in your password, and here's what happens under the hood:
 
-![password-certification-creation]({{ site.baseurl }}/images/password-certification-creation.png)
+![password-certification-creation]({{ site.baseurl }}/assets/figures/password-certification-creation.png)
 
 Your password is processed by a hashing algorithm, like those we discussed earlier. The generated hash is then stored in memory, and your password... **completely destroyed and forgotten!** Your operating system doesn't remember your password anymore, and it could not get it back even if it wanted to.
 
 Now it's time to login. Say you misspelled your password once before entering it correctly. Here's again what happens under the hood:
 
-![password-certification-login]({{ site.baseurl }}/images/password-certification-login.png)
+![password-certification-login]({{ site.baseurl }}/assets/figures/password-certification-login.png)
 
 Each time you enter a password, your operating system computes its hash, and then compare it with the stored one:
 
@@ -105,7 +105,7 @@ So next time you see such forms, email the company and ask them what do they nee
 
 I've recently registered to a french e-commerce website. Right after registration was complete, I received an email. How pleased I was when I realized the email contained the password I'd just chosen!
 
-![screenshot-password-send-after-subscription.png]({{ site.baseurl }}/images/screenshot-password-send-after-subscription.png)
+![screenshot-password-send-after-subscription.png]({{ site.baseurl }}/assets/screenshots/screenshot-password-send-after-subscription.png)
 
 The mail was even enlivened with advices on how to keep your credentials safe... this is like the pot calling the kettle black.
 
