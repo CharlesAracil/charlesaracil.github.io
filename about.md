@@ -13,7 +13,7 @@ Multilingual feature is based on the idea of [Sylvain Durand](https://www.sylvai
 
 ### License
 
-The source code is freely available on [Github](https://github.com/charlesaracil/charlesaracil.github.io). Unless stated otherwise, content and code presented on this website are published under the [MIT license](https://opensource.org/licenses/MIT).
+The source code is freely available on [Github](https://github.com/charlesaracil/charlesaracil.github.io). Unless stated otherwise, code presented on this website is published under the [MIT license](https://opensource.org/licenses/MIT), following *Jekyll Now*. The content of the blog, namely posts, is published under the [Creative Commons By](https://creativecommons.org/licenses/by/4.0/).
 
 If you use or refer any of my work, I'll appreciate you quote me as author.
 

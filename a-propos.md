@@ -14,7 +14,7 @@ La fonctionnalité multilingue est basée sur une idée de [Sylvain Durand](http
 
 ### Licence
 
-Le code source est disponible gratuitement sous [Github](https://github.com/charlesaracil/charlesaracil.github.io). Sauf indication contraire, le contenu et le code proposés sur le site sous publiés sous [licence MIT](https://opensource.org/licenses/MIT).
+Le code source est disponible gratuitement sous [Github](https://github.com/charlesaracil/charlesaracil.github.io). Sauf indication contraire, le contenu et le code proposés sur le site sous publiés sous [licence MIT](https://opensource.org/licenses/MIT), suivant la license de *Jekyll Now*. Le contenu du blog, en l'occurrence les articles, est soumis à la license [Creative Commons By](https://creativecommons.org/licenses/by/4.0/).
 
 Si vous faites référence à ou utilisez une quelconque partie de mon travail, je vous serai reconnaissant de me citer comme auteur.
 
