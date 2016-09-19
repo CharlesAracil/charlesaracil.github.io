@@ -137,4 +137,6 @@ Furthermore, as a lot of these data can be found on the internet, it has become 
 
 **Watch out what you publish on the internet. Consider any information you released is no longer suitable as password material.**
 
+*For the sake of clarity, I've made some small approximations. For instance, a same password can have two different hashes, thanks to a process called salting. So in order to use a password cracker, you'll need to retrieve both the password and the salt. Read [wikipedia](https://en.wikipedia.org/wiki/Salt_(cryptography)) for more info.*
+
 [**next milestone: passwords just suck the big one**](released soon)

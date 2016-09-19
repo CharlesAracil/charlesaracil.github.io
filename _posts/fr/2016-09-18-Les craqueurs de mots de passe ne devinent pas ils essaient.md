@@ -135,4 +135,6 @@ Vu la facilité avec laquelle nos informations peuvent maintenant être trouvée
 
 **Prenez garde à ce que vous publiez sur internet. Considerez que chaque information que vous lachez n'est plus valable pour en faire un mot de passe.**
 
+*Pour des raisons de clarté, je me suis permis quelques approximations. Par exemple, un même mot de passe peut avoir deux codes de hachage différents, en utilisant un processus appelé le salage. Donc pour craquer un mot de passe, il faudrait en fait récupérer son code de hachage et le sel. Read [wikipedia](https://fr.wikipedia.org/wiki/Salage_(cryptographie)) pour plus d'info.*
+
 [**next milestone: passwords just suck the big one**](released soon)
