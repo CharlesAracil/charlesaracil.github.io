@@ -20,7 +20,7 @@ Il ne s'agit pas de devenir un pirate de haute voltige, j'en suis moi-même trè
 
 *À quel point un système doit être sécurisé dépend des attentes de chacun. Une politique de sécurité est une affaire d'équilibre entre sécurité et facilité d'utilisation. Pour en tenir compte, j'adopterai une installation incrémentale (brique par brique). Je vous laisse juge pour savoir quand vous arrêter. Évidemment, plus c'est sécurisé, mieux c'est.*
 
-Voici ce que l'on va voir : 
+Voici ce que l'on va voir :
 
 * génération manuelle de mots de passe robustes
 * gestionnaire de mots de passe et génération automatique de mots de passe robustes
@@ -64,5 +64,4 @@ Les ingénieurs en informatique et les "white hats" travaillent à rendre nos or
 
 *Les pirates, au sens large, sont des personnes intelligentes, j'apprécie et adopte leur état d'esprit. Ils sont curieux, passionnés, ont un esprit critique et voient le monde non-pas comme on leur dit de le voir, mais comme ils veulent qu'il soit. Les "white hats" sont probablement plus efficaces à rendre nos technologies plus sécurisés que les entreprises ou les gouvernements, qui continuent à vous dire sans distinction que les pirates sont des méchants. La curiosité n'est pas un vilain défaut, le manichéisme en revanche...*
 
-[**next milestone: comment votre ordinateur n'enregistre pas les mots de passe**]({% post_url 2016-04-09-Comment-ordinateur-enregistre-pas-mot-de-passe%})
-
+[**next milestone: comment votre ordinateur n'enregistre pas les mots de passe**]({% post_url 2016-04-09-Comment-ordinateur-enregistre-pas-mot-de-passe %})

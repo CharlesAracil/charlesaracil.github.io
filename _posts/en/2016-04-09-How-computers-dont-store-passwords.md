@@ -113,5 +113,4 @@ I can't figure out any interest of such email. I asked the staff behind the webs
 
 *These security flaws are like anti-social behaviours: there because no one actively care. Each time you see them, don't leave before sending an email to the suitable staff. They might ignore some of them, but not a lot of them.*
 
-***next milestone: from strong password building to oblivion (coming soon)***
-
+[**next milestone: password crackers don't try, they just guess**]({% post_url 2016-09-18-Password_cracker_dont_guess_just_try %})

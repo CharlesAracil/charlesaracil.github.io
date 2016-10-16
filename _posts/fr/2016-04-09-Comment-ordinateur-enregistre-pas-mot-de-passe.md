@@ -113,5 +113,4 @@ Je ne suis pas parvenu à imaginer de raison d'être pour cet email. J'ai envoy�
 
 *Ces failles de sécurité sont comme les comportements anti-sociaux: présents parce que personne ne s'en soucie activement. La prochaine fois que vous en voyez une, ne partez pas avant d'avoir envoyé un email au service concerné. Il en ignorera certainement quelques-uns, mais certainement pas des centaines.*
 
-***prochaine étape: de la génération de mots de passe robustes à l'oubli (prochainement)***
-
+[**next milestone: 2016-09-18-Les craqueurs de mots de passe ne devinent pas, ils essaient**]({% post_url 2016-09-18-Les craqueurs de mots de passe ne devinent pas ils essaient %})
