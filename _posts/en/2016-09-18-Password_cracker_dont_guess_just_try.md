@@ -77,7 +77,7 @@ A brute-force attack basically consists in testing every single combination.
 
 If we were cracking a 4-digits combination-lock padlock, we would brute-force it by trying *0000*, *0001*, *0002*... up until *9999*. We could do it manually with some patience, let's say one try per second, so almost 3 hours. A computer does it almost instantly.
 
-If we were cracking a 8-long password composed only with lowercase characters, we would try *a, b... z, aa, ab, ac... zz, aaa, aab... zzz, aaaa... aaaaaaaa... zzzzzzzz*. Obviously we couldn't do it manually anymore, as they are 208.827.064.576 different combinations. An average computer however could try them in a couple of day, assuming it can perform 10,000,000 guesses per second. A good computer, or a cluster of computers working together, can perform 100,000,000 guesses per second, so only half on hour would be necessary.
+If we were cracking a 8-long password composed only with lowercase characters, we would try *a, b... z, aa, ab, ac... zz, aaa, aab... zzz, aaaa... aaaaaaaa... zzzzzzzz*. Obviously we couldn't do it manually anymore, as they are 208.827.064.576 different combinations. An average computer however could try them in a couple of day, assuming it can perform 10,000,000 guesses per second. A good computer, or a cluster of computers working together, can perform 100,000,000 guesses per second, so only half an hour would be necessary.
 
 But passwords are not limited in length, and can contain lowercase and uppercase characters, digits and symbols, for a total of 96 typographic signs. As a result, the number of combinations for a password of length `N` is `96^N`.
 
@@ -95,7 +95,7 @@ Hackers with little computing resources might not be able to crack complex 8-lon
 
 A dictionary attack is a smarter approach. It relies on the simple assessment that a lot of people use the same passwords.
 
-Sadly, passwords like *123456*, *football*, *qwertyuiop* or *starwars* are still of the [top list](http://gizmodo.com/the-25-most-popular-passwords-of-2015-were-all-such-id-1753591514) of most commonly used passwords.
+Sadly, passwords like *123456*, *football*, *qwertyuiop* or *starwars* are still on the [top list](http://gizmodo.com/the-25-most-popular-passwords-of-2015-were-all-such-id-1753591514) of most commonly used passwords.
 
 As a result, we can get a list of the most commonly used passwords, and just check them against our stolen hash. There are a lot of these password lists [around the net](http://www.openwall.com/wordlists/). A lot of them are free of charge, although they may be less comprehensive, and already encompasses millions of most commonly used passwords.
 
@@ -105,11 +105,11 @@ This method is more statistically efficient than brute-force attack, because it 
 
 ### Rainbow table
 
-Rainbow table attack is a slight improvement on dictionary attack. When performing a dictionary attack, we still need to compute a hash for every single password contained in the dictionary, which is very time-consuming. In contrast, comparing to hashes is a very quick task.
+Rainbow table attack is a slight improvement on dictionary attack. When performing a dictionary attack, we still need to compute a hash for every single password contained in the dictionary, which is very time-consuming. In contrast, comparing two hashes is a very quick task.
 
 As a result, we would prefer to have a pre-computed hash along with the password in a lookup table. That's basically what a rainbow table offers: it directly provides the hash corresponding to a password, or rather a password corresponding to a hash.
 
-That way, for a stolen hash, we only have to look in our rainbow table if this hash exists. If it does, the rainbow table immediately provides the corresponding password, which is the one was were looking for.
+That way, for a stolen hash, we only have to look in our rainbow table if this hash exists. If it does, the rainbow table immediately provides the corresponding password, which is the one we were looking for.
 
 **If your password is one of those available in rainbow tables, be sure it won't take a lot of time to crack it.**
 
@@ -123,7 +123,7 @@ Previously mentioned tactics do not rely on any personal information: they do no
 
 That's why it's said friendship is to be granted with great care: you give them weapons assuming they'll not use them to hurt you. That's also why Facebook's use of the word *"friend"* is highly dangerous and prone to misguided behaviours. But saying *"I have 297 acquaintances!"* is surely less sexy.
 
-In a hacker perspective, intelligence about your target can be use to crack his password. The assumption here is that people use personal data to create their passwords.
+In a hacker perspective, intelligence about your target can be used to crack his password. The assumption here is that people use personal data to create their passwords.
 
 Personal data does not necessarily mean private data, but rather encompasses both public and private data, as long as it's something that identifies you.
 
