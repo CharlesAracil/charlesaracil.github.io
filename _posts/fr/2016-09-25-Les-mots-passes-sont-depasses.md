@@ -88,4 +88,4 @@ De plus, si un pirate récupère un de vos mots de passe, ils pourrait assez fac
 
 *Si vous avez lu tous mes billets jusqu'ici, félicitations ! Cela n'a pas dû être facile, surtout pour si peu de conseils pratiques. Dès le prochain article, nous commencerons à rentrer dans du concret, et des outils que j'utilise au quotidien. A plus!*
 
-**next milestone: create passwords with dices (released soon)**
+[**next milestone: créer des mots de passe avec des dés**]({% post_url 2016-10-30-Diceware_mot_de_passe_des %})

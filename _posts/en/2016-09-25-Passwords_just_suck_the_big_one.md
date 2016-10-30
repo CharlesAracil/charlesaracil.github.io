@@ -89,4 +89,4 @@ Moreover, if a hacker get one of your passwords, he may figure out how it’s bu
 
 *If you read my posts so far, congratulation! It might have been such a pain, for so little practical advices. I should have started with a 'Bear with me', it seems to work during conferences to keep an audience focused through a whole half-hour digression on a side-topic... Anyway, we're half the journey, and from the next post we'll introduce concepts I actually use in my security policy. See you soon!*
 
-**next milestone: create passwords with dices (released soon)**
+[**next milestone: create passwords with dices**]({% post_url 2016-10-30-Diceware_passwords_dices %})
