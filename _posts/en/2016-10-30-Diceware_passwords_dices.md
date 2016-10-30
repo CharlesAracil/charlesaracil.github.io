@@ -31,7 +31,7 @@ This is known as the **frequency stability property.** A coin has it, **humans d
 
 This is why you should not try to build a random password yourself.
 
-*If you want more visuals on that phenomenon, check out [this video](https://www.youtube.com/watch?v=H2lJLXS3AYM), which illustrates it pretty well.*
+*If you want more visuals on that phenomenon, check out [this video](https://www.youtube.com/watch?v=H2lJLXS3AYM), which illustrates it pretty well. Besides, you'll find the source code for the graphics of this post [here](https://raw.githubusercontent.com/CharlesAracil/charlesaracil.github.io/master/assets/python/diceware.py).*
 
 # Build strong password with true randomness: use dices!
 

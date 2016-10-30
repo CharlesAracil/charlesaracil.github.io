@@ -31,8 +31,7 @@ C'est **la proriété de stabilité fréquentielle.** Une pièce de monnaie poss
 
 Et c'est pour cette même raison que vous ne devriez pas essayer de générer des mots de passe aléatoires vous-même.
 
-*Pour une présentation plus visuelle de ce phénomène, allez voir [cette vidéo](https://www.youtube.com/watch?v=H2lJLXS3AYM), qui l'illustre très bien.*
-
+*Pour une présentation plus visuelle de ce phénomène, allez voir [cette vidéo](https://www.youtube.com/watch?v=H2lJLXS3AYM), qui l'illustre très bien. Vous trouverez le code source des graphiques de ce billet [ici](https://raw.githubusercontent.com/CharlesAracil/charlesaracil.github.io/master/assets/python/diceware.py).*
 # Créer des mots de passe robustes réellement aléatoires: utilisez des dés!
 
 Le **Diceware** est une méthode pour générer des mots de passe aléatoires par agrégation de mots communs du dictionnaire. Donc, en lieu et place de mots de passe comme `Face1eTheWc0deO|3Ts!Book`, vous vous retrouvez maintenant avec une suite de mots aléatoires, comme `correct horse battery staple`. C'est une **phrase de passe, ou passphrase.**
