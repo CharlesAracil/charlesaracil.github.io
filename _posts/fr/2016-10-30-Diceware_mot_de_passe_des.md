@@ -27,7 +27,7 @@ Maintenant, si vous comptez la fréquence d'apparition de ces différents résul
 
 ![diceware frequency stability property]({{ site.baseurl }}/assets/figures/diceware_g3.png)
 
-C'est **la proriété de stabilité fréquentielle.** Une pièce de monnaie possède cette propriété, **le cerveau humain ne la possède pas**, car il utilise sa mémoire pour tenir compte des résultats précédents, et essaye de compenser ces résultats dans les tirages précédents, en vue d'obtenir ce qui lui semble être un résultat aléatoire.
+C'est **la propriété de stabilité fréquentielle.** Une pièce de monnaie possède cette propriété, **le cerveau humain ne la possède pas**, car il utilise sa mémoire pour tenir compte des résultats précédents, et essaye de compenser ces résultats dans les tirages précédents, en vue d'obtenir ce qui lui semble être un résultat aléatoire.
 
 Et c'est pour cette même raison que vous ne devriez pas essayer de générer des mots de passe aléatoires vous-même.
 
