@@ -17,7 +17,7 @@ Here's an experiment to illustrate the idea.
 
 Ask someone to flip a coin several times - a lot of times - and write down the serie of heads and tails he gets. In another room, do the same, but instead of flipping a real coin, imagine you're flipping one, and write down your imaginary results. Let's say `head=0`, and `tail=1`, it will be easier to write down.
 
-And the end, compare your results with those of your buddy. You'll notice that both of you will have, in average, an equal number of *0* and *1*. And indeed, as you were trying to achieve randomness, you took care of having the same number of those, because that's a requisite of randomness: as both heads and tails have fifty-fifty chance of outcome, they should appear with the same frequency.
+At the end, compare your results with those of your buddy. You'll notice that both of you will have, in average, an equal number of *0* and *1*. And indeed, as you were trying to achieve randomness, you took care of having the same number of those, because that's a requisite of randomness: as both heads and tails have fifty-fifty chance of outcome, they should appear with the same frequency.
 
 ![diceware homogeneity]({{ site.baseurl }}/assets/figures/diceware_g1.png)
 
