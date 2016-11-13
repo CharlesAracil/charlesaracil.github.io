@@ -1,0 +1,88 @@
+---
+layout: post
+title: Password manager
+ref: password_manager
+lang: en
+---
+
+How about having a little stewart handling your passwords for you?
+
+He could **generate** bullet-proof passwords, the kind long and complex enough you couldn't remember nor type, **remember** them with maximum security and even **type** them for you!
+
+That stewart exists, it's called a **password manager.**
+
+## Password manager
+
+A password manager is basically a piece of software responsible for generating and storing passwords in an **encrypted** database. Encryption is a crucial requirement, because this database will store **all of your passwords**, so you won't want them exposed would a thief gain access to it.
+
+Encryption also means the data is unreadable, unless the correct key is used to decrypt it. So to open your password manager, you need a key. What's this key? It's a *passphrase*.
+
+Consequently, a password manager doesn't entirely replace the need for passphrases. It just cut down the number of passphrases you need to remember to... one. **This passphrase you'll need to open your password manager is the only one you'll ever have to remember!** For this reason, it's called the **master passphrase.**
+
+This leaves the issue of choosing your master passphrase. You wouldn't want to mess this step, because if your passphrase is too weak, hackers could get access to your database, and all the passwords it contains.
+
+Fortunately, we'seen in the [previous post]({% post_url 2016-10-30-Diceware_passwords_dices %}) a method for generating strong and random passphrases: the *Diceware* method. As it provides a really strong and random passphrase, easier to remember than regular passwords, it fits the requirement perfectly. So **roll your dices and remember the generated passphrase.**
+
+## Choose your password manager
+
+Password managers can be *online* or *offline*. Online password managers use the cloud as storage. It makes them easier to use, as you won't have to manage your database locally, and will have nothing to do in order to synchronize your passwords among the devices you use. On the other hand, offline password managers may provide better security as your sensitive data won't be sent on the internet. Both solutions provide great security though, so it's more a matter of choice.
+
+However, online password managers are often commercial solutions, you'll need to register and pay a monthly fee, while fully-fledged offline password managers are available for free. Your choice.
+
+There's a lot of password managers out there. [Lastpass](https://lastpass.com/fr/), [Dashlane](https://www.dashlane.com/fr/), [Password Safe](https://pwsafe.org/), [Passpack](https://www.passpack.com/), [Password Tote](https://www.passwordtote.com/) are online, [Keepass](http://keepass.info/), [KeepassX](https://www.keepassx.org/), [PwSafe](https://pwsafe.org/) are offline. This list is far from exhaustive, but encompasses most popular ones. Again, your choice.
+
+*I choose to expose those for a reason: because they handle a neat feature called double-authentification. We'll talk about it in the next post.*
+
+## How to use a password manager: focus on Keepass
+
+*To set things straight: this post is not a tutorial, it won't guide you though the configuration steps of your password manager, because its already documented on official websites, so it'll be pointless to just repeat what's written there. However, I hope showing its daily usage will encourage you to install and use them.*
+
+I've picked *Keepass* because it's offline, free, open-source, and comes with advanced features like *double-obfuscation*. We'll talk about it in a moment. All screenshots expose Keepass interface, but the process would be very similar should you choose another password manager.
+
+When *Keepass* starts, it asks the user for his credentials, namely his passphrase, the one you built using the diceware method. The second row requires a double-authentification, the feature we'll talk in the next post. Ignore it for now.
+
+![Keepass login screen]({{ site.baseurl }}/assets/screenshots/screenshot-keepass-login.png)
+
+The home page lists all the passwords you've already created, along with the username associated with it. Because the password manager remembers both the password and the username for each of your accounts, **both the password and the username can be unique for each one of them.**
+
+![Keepass home screen]({{ site.baseurl }}/assets/screenshots/screenshot-keepass-home.png)
+
+The strength of a password manager comes from its ability to built password for you. That's why you just have to remember the passphrase enabling the access to the password manager, all the others one will be stored into it.
+
+To see what those automatically generated passwords look like, let's see one of the entry of the home page:
+
+![Keepass entry example]({{ site.baseurl }}/assets/screenshots/screenshot-keepass-key.png)
+
+You can see **how complicated the passwords generated by Keepass are.** They're composed of long and completely random sequence of characters from all available sets of characters. The sets of characters and the length are customizable to take into account limitations of the service you log into.
+
+This properties make these passwords impossible to crack.
+
+And of course, you never have to type them yourself, that would be to much of a pain. *Keepass* integrates an auto-completion shortcut - namely `Ctrl-Alt-A` - which means each time you want to log in to one of your account, you won't have to type its password, but rather the shortcut only.
+
+## Double-obfuscation
+
+One more advantage of this auto-completion feature is that is performs *double-obfuscation*. Not to be mixed with *double-authentification*, they are two completely different things.
+
+*Double-obfuscation* means that when *Keepass* type-in your password on the log-in screen, it does it through two channels. The first one is the one you use when you type: the keyboard. *Keepass* simulates keystrokes to enter the password, which is basically no different from what you do.
+
+But *Keepass* also use the clipboard, which is the memory buffer used when you copy-paste stuff. Concretely, a portion of the password is typed using a simulated keyboard, the rest of it is copy-pasted from the clipboard.
+
+What's the use of it? It's a protection against a specific type of viruses called *keyloggers*.
+
+*Keyloggers* are quite simple but very efficient: they just record your keystrokes, and send them to the hacker through the network. As a result, the hacker wouldn't have to crack your password by stealing hash codes, he'd just have to wait you enter your password. It's like someone behind you watching your fingers. They're very common viruses.
+
+*By the way, they're not viruses per se, as they're just keystroke recorders. We call them viruses here as they're used to spy on you.*
+
+However, using *Keepass double-obfuscation*, a *keylogger* wouldn't get your password anymore, just a portion of it, because the whole password won't be type using keystrokes.
+
+And it's more clever than that, because the password characters are not entered from left to right, but in a random order. For instance, if your password is `Superman` (just for simplicity), *Keepass* could start with `uper` from the keyboard, then `m` and `n` from the clipboard, and going back to the missing letters `Su` and `a` afterwards. That means the hackers won't even have the correct order on the portion of password he could retrieve using a keylogger.
+
+## The single point of failure
+
+Having all your automatically-built passwords stored in a safe location, along with an auto-completion feature, is great. However, it means that **if your master passphrase is stolen, all your passwords are compromised!**
+
+This is called a **single-point of failure**, as one breach makes the whole system collapse.
+
+Fortunately, there is a solution against that: **double-authentification.** With a double-authentification system, even if your passphrase is stolen, a hacker still won't be able to access your passwords, which is pretty cool.
+
+[**next milestone: double-authentification**]({% post_url 2016-11-13-Double_authentification %})

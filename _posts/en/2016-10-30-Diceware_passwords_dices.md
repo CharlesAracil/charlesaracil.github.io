@@ -71,4 +71,4 @@ You end up with an **easier password to both remember and type**, because it's m
 
 *There is still one unsolved problem: your passphrase should still be unique for every account you have. And having a lot of Diceware passwords surely can't be remembered. But there's a solution for that: password managers! Combined with only one diceware passphrase, you'll get on almost bullet-proof password policy. Buckle-up!*
 
-[**next milestone: password managers**](released soon)
+[**next milestone: password managers**]({% post_url 2016-11-12-Password_manager %})
