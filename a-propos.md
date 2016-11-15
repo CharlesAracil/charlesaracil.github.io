@@ -20,7 +20,7 @@ Si vous faites référence à ou utilisez une quelconque partie de mon travail, 
 
 ### Un mot sur Flattr
 
-Vous aurez peut-être remarquer l'utilisation de [Flattr](https://flattr.com/), une platforme de micro-don. Il permet de recompenser le travail des créateurs de contenu sur Internet.
+Vous aurez peut-être remarqué l'utilisation de [Flattr](https://flattr.com/), une platforme de micro-don. Il permet de recompenser le travail des créateurs de contenu sur Internet.
 
 Je publierai du contenu quelque soit les donations sur Flattr, parce que c'est ce que je veux et que j'aime ce que je fais. Sa présence sur le site à plus une vocation promotionnelle de ce système, plus que pour gagner de l'argent. Si vous aimez Flattr, parlez en autour de vous.
 
@@ -29,4 +29,3 @@ Si vous voudriez que j'ajoute un autre système de donation, [Tipeee](https://ww
 ### Me contacter
 
 [charles.aracil+blog [at] gmail.com](mailto:charles.aracil+blog@gmail.com)
-
