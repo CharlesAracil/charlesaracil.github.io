@@ -110,11 +110,13 @@ Le cerveau est facilement biaisé, une rigueur d'esprit s'impose donc pour compe
 **Apprendre les biais cognitifs et les techniques de rhétorique.** Connaître les armes de ses opposants permet de mieux s'en protéger.
 
 **Critiquer absolument tout.** Se méfier de ce qu'on pense savoir. Préférer la logique au bon sens. Si quelque chose semble évident, se demander si cette évidence a pour source une réflexion, ou s'il s'agit d'un apprentissage acquis plus jeune et jamais remis en question. Un super exercice et de prendre l'antithèse et de la défendre, quand bien même vous n'êtes pas d'accord avec cette dernière. Par exemple:
+
 * "La curiosité est un vilain défault" (qui pour le coup est vraiment une connerie)
 * La polygamie est meilleure que la monogamie
 * La France n'est pas en démocratie
 * Le communisme est un super régime politique
 * Le nudisme devrait être autorisé partout
+
 Vous remarquerez que les sujets polémiques sont une très bonne source d'exercices intellectuels.
 
 **Eteindre la télé, au moins pendant les publicités!** La télévision et la publicité ont littéralement la capacité de reconfigurer le cerveau pour le rendre suggérable, et tuer son esprit critique. Ne pensez pas que ça ne marche pas parce vous savez que c'est con, ça marche quand même, avec ou sans neuromarketing. On y reviendra bientôt...
