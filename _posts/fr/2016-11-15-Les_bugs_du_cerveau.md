@@ -87,7 +87,7 @@ La rhétorique en elle-même n'est pas une manipulation, au sens péjoratif du t
 
 Toujours est-il que cette forme de rhétorique est en soi **légitime.** Elle vise simplement à utiliser la structure de la langue pour faire passer un message. Si vous souhaitez des exemples d'analyse de discours politique, jetez un oeil à la chaine *Youtube* [Aequivox](https://www.youtube.com/channel/UCc8ddcHlzntK7qn9_ywhMOQ).
 
-Cependant, la rhétorique permet également **l'utilisation volontaire de procédés illégitimes.** Ce pan de rhétorique est très utilisé dans le débat politique, lorsque au moins deux personnes s'affrontent. Il s'agit alors non plus d'avoir raison, mais de **sembler avoir raison**, en l'occurrence non plus au yeux de ses adversaires, mais **au yeux ceux qui les écoutent.**
+Cependant, la rhétorique permet également **l'utilisation volontaire de procédés illégitimes.** Ce pan de rhétorique est très utilisé dans le débat politique, lorsque au moins deux personnes s'affrontent. Il s'agit alors non plus d'avoir raison, mais de **sembler avoir raison**, en l'occurrence non plus aux yeux de ses adversaires, mais **aux yeux ceux qui les écoutent.**
 
 De même que pour les biais cognitifs, ces techniques de rhétorique sont connues et très largement exploitées en politique. Le livre le plus connus sur le sujet provient d'Arthur Schopenhauer: [La dialectique éristique](https://fr.wikipedia.org/wiki/La_Dialectique_%C3%A9ristique) ou [L'art d'avoir toujours raison](https://fr.wikipedia.org/wiki/La_Dialectique_%C3%A9ristique). Il y répertorie l'ensemble de ces techniques.
 
