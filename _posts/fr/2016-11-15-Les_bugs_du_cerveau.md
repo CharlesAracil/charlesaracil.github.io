@@ -53,7 +53,7 @@ Ainsi, la physique de l'infiniment petit, notamment la physique quantique, a per
 
 Les choses peuvent par ailleurs échapper à l'expérience commune sans que l'on s'en rende compte. C'est le cas par exemple des **propriétés émergentes.** Une propriété émergente d'un système est une propriété qui ne peut être expliqué par l'étude individuelle des composants du système. Par exemple, on s'est rendu compte que le comportement d'une foule d'individus ne peut être expliqué par le comportement de chacun des individus pris individuellement. C'est ce qui a donné naissance à [la psychologie des foules](https://fr.wikipedia.org/wiki/Psychologie_des_foules_(psychologie)).
 
-*Les exemples donnés ici sont certe très loin de l'expérience et des besoins du quotidien, mais on le mérite de montrer une scission nette entre le bon sens et la réalité. Nous allons voir ici des mécanismes psychologiques simples mais qui présentent aussi de telles scissions: les biais cognitifs.*
+*Les exemples donnés ici sont certes très loin de l'expérience et des besoins du quotidien, mais on le mérite de montrer une scission nette entre le bon sens et la réalité. Nous allons voir ici des mécanismes psychologiques simples mais qui présentent aussi de telles scissions: les biais cognitifs.*
 
 ## Les biais cognitifs
 
