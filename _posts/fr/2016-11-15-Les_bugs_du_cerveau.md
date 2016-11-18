@@ -75,7 +75,7 @@ Le biais de **l'aversion à la perte** est la tendance à attribuer plus de vale
 
 > Le bon sens est la chose du monde la mieux partagée ; car chacun pense en être si bien pourvu, que ceux même qui sont les plus difficiles à contenter en toute autre chose n’ont point coutume d’en désirer plus qu’ils en ont -- Descartes, Discours de la méthode (un gars plein de bon sens décidément)
 
-*Le cerveau ayant des failles, des outils ont été pensé pour les exploiter. Il s'agit donc de techniques de manipulation, ayant pour but de faire passer une idée, qu'elle soit vraie ou fausse, en coutournant les processus d'approbation conscients de l'esprit. Ces techniques de manipulation sont cristallisées par la rhétorique.*
+*Le cerveau ayant des failles, des outils ont été pensés pour les exploiter. Il s'agit donc de techniques de manipulation, ayant pour but de faire passer une idée, qu'elle soit vraie ou fausse, en coutournant les processus d'approbation conscients de l'esprit. Ces techniques de manipulation sont cristallisées par la rhétorique.*
 
 ## Les biais cognitifs au service de la rhétorique
 
@@ -111,7 +111,7 @@ Le cerveau est facilement biaisé, une rigueur d'esprit s'impose donc pour compe
 
 **Critiquer absolument tout.** Se méfier de ce qu'on pense savoir. Préférer la logique au bon sens. Si quelque chose semble évident, se demander si cette évidence a pour source une réflexion, ou s'il s'agit d'un apprentissage acquis plus jeune et jamais remis en question. Un super exercice et de prendre l'antithèse et de la défendre, quand bien même vous n'êtes pas d'accord avec cette dernière. Par exemple:
 
-* "La curiosité est un vilain défault" (qui pour le coup est vraiment une connerie)
+* "La curiosité est un vilain défaut" (qui pour le coup est vraiment une connerie)
 * La polygamie est meilleure que la monogamie
 * La France n'est pas en démocratie
 * Le communisme est un super régime politique
