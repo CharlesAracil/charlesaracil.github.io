@@ -2,6 +2,9 @@
 # This file contains configuration flags to customize your site
 #
 
+plugins:
+  - jekyll-seo-tag
+
 # Name of your site (displayed in the header)
 name: Charles Aracil
 
