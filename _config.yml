@@ -4,6 +4,7 @@
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Name of your site (displayed in the header)
 name: Charles Aracil
